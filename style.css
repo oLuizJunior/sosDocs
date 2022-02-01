@@ -1,0 +1,374 @@
+*{
+  font-family: 'Cera Pro', sans-serif;
+                                                
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-1 {
+  background: rgba(9, 43, 215, 1);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+
+  width: auto;
+  height: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.header-idioma {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.header-contato-vendas{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+}
+
+.header-2 {
+  width: auto;
+  height: 76px;
+  left: 0px;
+  top: 39px;  
+  
+  background: #FFFFFF;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-2 .logo {
+  margin: 27px 44px 26.05px 156px;
+}
+
+.header-2 .navbar-header {
+  width: 395px;
+  height: 22px;
+  left: 333px;
+  top: 67px;
+  margin: 28px, 26px;
+
+  display: flex;
+  justify-content: space-between;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #001240;
+}
+
+.header-2 .navbar-header .navegacao a {
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.header-btn-entrar img {
+  margin-right: 11px;
+}
+
+.header-btn-entrar {
+  background: #fff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 22px;
+
+  color: #092BD7;
+}
+
+.header-btn-falarComConsultor{
+  background: #fff;
+  width: 225px;
+  height: 47px;
+  left: 1059px;
+  top: 53px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5px;
+  line-height: 21px;
+  color: #092BD7;
+
+  border: 1px solid #092BD7;
+  box-sizing: border-box;
+  border-radius: 41.7073px;
+}
+
+
+.linha {
+  width: 1440px;
+  height: 4px;
+  left: 0px;
+  top: 115px;
+  align-items:center;
+
+  background: linear-gradient(90deg, #FFCE5C 0%, #F1A700 100%);
+}
+
+.section-1{
+  background-image: url('images/background-section-1.svg');
+  color: #fff;
+
+  width: 1440px;
+  height: 942px;
+  left: -158px;
+  top: 119px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoDocZ{
+  margin-top: 106px;
+  margin-bottom: 30px;
+}
+
+.titulo{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 83.5692px;
+  line-height: 116.5%;
+
+  text-align: center;
+  margin-bottom: 13px;
+}
+
+.section-1 p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29.2035px;
+  line-height: 138%;
+
+  text-align: center;
+}
+
+.btn-faleComUmConsultor{
+  background: linear-gradient(90deg, #FCE16F 0%, #F1A700 100.06%);
+  border-radius: 62.9421px;
+  
+  width: 288.21px;
+  height: 65.15px;
+  left: 557px;
+  top: 660px;
+  margin-top: 52px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18.7722px;
+  line-height: 24px;
+  
+  color: #002040;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+}
+
+.section-2 h2{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 118%;
+  letter-spacing: 0.125em;
+  color: #2981FE;
+
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.section-2 h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 110%;
+
+  padding-bottom: 94px;
+  text-align: center;
+
+  color: #001240;
+}
+
+.section-2{
+background: #FAFBFB;
+}
+
+.plataformaOnline{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plataformaOnline .plataformaOnline-img {
+  width: 741px;
+  height: 537px;
+  left: -40px;
+  top: 1873px;
+}
+
+.linha-plataformaOnline{
+  width: 54px;
+  height: 5px;
+  left: 874px;
+  top: 1899px;
+
+  background: linear-gradient(90deg, #F1A700 0%, #FCE16F 101.85%);
+  border-radius: 59px;
+}
+
+.plataformaOnline-paragrafo{
+  width: 414.7px;
+  height: 422.06px;
+  left: 874.3px;
+  top: 1939px;
+  float: right;
+  margin-right: 153px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 125%;
+
+  color: #001240;
+}
+
+.section-3{
+  width: 1440px;
+  height: 988px;
+  left: 0px;
+  top: 2606px;
+
+  display: flex;
+  flex-direction: column;
+
+  background: url('images/Ondas 1.svg');
+}
+
+.linha-section-3{
+  width: 54px;
+  height: 5px;
+  left: 696px;
+  top: 2697px;
+  align-items:center;
+  margin-top: 69px;
+  
+  background: linear-gradient(90deg, #F1A700 0%, #FCE16F 101.85%);
+  border-radius: 59px;
+}
+
+.section-3 h2 {
+  width: 757px;
+  height: 118px;
+  left: 342px;
+  top: 2730px;
+  margin-top: 28px;
+  margin-bottom: 84px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 49.3673px;
+  line-height: 120.5%;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.section-3 img {
+  margin: 0 171px 133.91px 175px;
+}
+
+.linha-section-4{
+ 
+  width: 57px;
+  height: 6px;
+  left: 158px;
+  top: 3725px;
+  margin-top: 131px;
+  
+  background: linear-gradient(90deg, #F1A700 0%, #FCE16F 101.85%);
+  border-radius: 59px;
+}
+
+.section-4 h2 {
+  left: 156px;
+  top: 3764px;
+  margin-top: 33px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 110%;
+
+  color: #001240;
+}
+
+.conteudo-section-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-4 h3 {
+  width: 939.85px;
+  height: 152px;
+  left: 250.08px;
+  top: 5140px;
+
+  font-family: Cera Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41.771px;
+  line-height: 129%;
+  /* or 54px */
+
+  text-align: center;
+
+  color: #001240;
+}
+
+.btn-faleComUmConsultor-section-4 {
+  background: linear-gradient(90deg, #FCE16F 0%, #F1A700 100.06%);
+  border-radius: 62.9421px;
+  
+  width: 288.21px;
+  height: 65.15px;
+  left: 557px;
+  top: 660px;
+  margin-top: 52px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18.7722px;
+  line-height: 24px;
+  
+  color: #002040;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
+}
+
+
