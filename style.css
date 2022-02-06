@@ -893,6 +893,12 @@
 }
 
 @media (min-width: 1920px) {
+  .functionalities-title > h2 {
+    width: 55%;
+    font-size: 64px;
+    text-align: left;
+    padding: 0 235px 0 0;
+  }
   .functionalities {
     justify-content: center;
   }
@@ -996,6 +1002,7 @@
     display: flex;
     font-size: 64px;
     width: 800px;
+    padding: 0 0 8rem 0;
   }
 
   .row-content {
