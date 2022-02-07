@@ -216,7 +216,7 @@
 .row-text {
   text-align: center;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 23px;
   line-height: 125%;
 }
@@ -937,6 +937,7 @@
 @media (min-width: 768px) {
   .differentials-title {
     font-size: 54px;
+    margin: 28px 0px 84px 0;
   }
   .differentials-img > img {
     width: 700px;
@@ -956,7 +957,7 @@
   }
   .differentials-title {
     font-size: 60px;
-    max-width: 90%;
+    max-width: 85%;
   }
   .differentials-img > img {
     width: 980px;
@@ -1084,6 +1085,11 @@
     align-items: center;
     text-align: center;
   }
+  .platform-text {
+    display: flex;
+    font-size: 64px;
+    max-width: 60%;
+  }
   .row-notebook {
     left: -11.5rem;
   }
@@ -1107,7 +1113,7 @@
     height: 422.06px;
     text-align: left;
     font-style: normal;
-    font-weight: 500;
+
     font-size: 43px;
     line-height: 125%;
     max-width: 100%;
@@ -1191,6 +1197,10 @@
 }
 
 @media (min-width: 1440px) {
+  .cover-text {
+    max-width: 60%;
+    font-size: 29.2px;
+  }
   .cover-link {
     margin: 0 0 337.85px 0;
   }
