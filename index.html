@@ -7,6 +7,8 @@
 
     <!-- fonte Cera Pro -->
     <link href="http://fonts.cdnfonts.com/css/cera-compact-pro?styles=44807,44809,44803,44805,44801" rel="stylesheet">
+    <!-- font Awesome icon -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- swipe.Js -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css" />
@@ -31,15 +33,21 @@
       </div>
     </header>
     <nav class="navbar-header">
-      <img class="navbar-img" src="images/Group.svg" alt="logomarca" />
-      <div class="navbar-colapse">
-        <div class="navbar-nav">
+      <a><img class="navbar-img" src="images/Group.svg" alt="logomarca" /></a>
+      <button class="hamburguer" id="hamburguer">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="lineDecoration-mobile">
+        <span></span>
+      </div>
+      <div class="navbar-colapse" id="navbar-colapse"">
+        <div class="navbar-nav" id="navbar-nav">
             <a class="navbar-item" href="#plataforma" class="navbar-link">Plataforma</a>
             <a class="navbar-item" href="#diferencias" class="navbar-link">Diferenciais</a>
             <a class="navbar-item" href="#funcionalidades" class="navbar-link">Funcionalidades</a>
         </div>
       </div>
-      <div class="navbar-right">
+      <div class="navbar-right" id="navbar-right">
         <a class="navbar-enter" href="#">
           <img class="img-avatar" src="images/avatar.svg" alt="ícone de avatar" />
           Entrar
@@ -258,6 +266,8 @@
           </a>
       </div>
     </footer>
+
+    <script src="script.js"></script>
 
     <!-- <script src="script.js"></script>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
