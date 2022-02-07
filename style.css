@@ -47,7 +47,7 @@
 .navbar-img {
   width: 30%;
   height: 30%;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.7rem;
 }
 .navbar-colapse {
   display: none;
@@ -93,11 +93,11 @@
 
 .cover-text {
   display: flex;
-  max-width: 90%;
+  max-width: 75%;
 
   font-style: normal;
   font-weight: normal;
-  font-size: 29px;
+  font-size: 20px;
   line-height: 138%;
 
   text-align: center;
@@ -160,7 +160,7 @@
 .platform-text {
   font-style: normal;
   font-weight: 700;
-  font-size: 37px;
+  font-size: 34px;
   line-height: 110%;
   max-width: 85%;
   padding: 0 0 3rem 0;
@@ -242,11 +242,11 @@
 }
 
 .differentials-title {
-  margin: 28px 0px 84px 0px;
+  margin: 28px 0px 28px 0px;
 
   font-style: normal;
   font-weight: 700;
-  font-size: 37px;
+  font-size: 34px;
   line-height: 120.5%;
   max-width: 84%;
   text-align: center;
@@ -260,7 +260,7 @@
   justify-content: center;
   max-width: 100%;
   height: auto;
-  padding: 0px 0px 250px 0px;
+  padding: 0px 0px 69px 0px;
 }
 
 .differentials-img > img {
@@ -371,12 +371,10 @@
   font-weight: 700;
   font-size: 34px;
   line-height: 129%;
-
-  max-width: 85%;
-  padding: 3.438rem 0 0 0;
-
-  /* padding: 85px 250.08px 0 250.08px; */
   color: #001240;
+
+  max-width: 75%;
+  padding: 3.438rem 0 0 0;
 }
 
 .contact-link {
@@ -616,14 +614,22 @@
 
 .attendanceNumber {
   padding: 0px 0px 43.85px 0px;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
   color: white;
   font-size: 19.2215px;
   width: 100%;
 }
 
+.footer-lineDecoration {
+  width: 99%;
+  margin: 0 auto;
+
+  border: 2.00112px solid rgba(255, 255, 255, 0.17);
+}
+
 .attendanceNumber > span {
   color: rgba(255, 255, 255, 0.47);
+  padding: 0 0.5rem;
 }
 
 .footer-direitos {
@@ -673,15 +679,22 @@
     width: 89%;
   }
 
+  .footer-lineDecoration {
+    width: 80%;
+  }
+
   .footer-direitos {
     flex-direction: row;
     justify-content: space-between;
-
+    width: 79.6%;
     padding: 37.67px 0 38.4px 155px;
   }
 }
 
 @media (min-width: 1920px) {
+  .footer-lineDecoration {
+    width: 84%;
+  }
   .attendanceNumber {
     margin: 0;
   }
@@ -720,6 +733,12 @@
   }
 }
 
+@media (min-width: 1920px) {
+  .contactus-texto1 {
+    max-width: 30%;
+  }
+}
+
 @media (min-width: 768px) {
   .dataProtection-img > img {
     width: auto;
@@ -753,8 +772,7 @@
 
   .dataProtection-title {
     max-width: 100%;
-
-    font-weight: 500;
+    font-weight: 700;
   }
 
   .dataProtection-text {
@@ -786,15 +804,17 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .contact-sales h3 {
+    font-size: 35.77px;
+    max-width: 80%;
+  }
+}
+
 @media (min-width: 1440px) {
   .contact-sales h3 {
-    display: block;
-    font-style: normal;
-    font-weight: 500;
     font-size: 41.771px;
-    line-height: 129%;
-
-    color: #001240;
+    padding: 0;
   }
 }
 
@@ -806,8 +826,8 @@
   }
 
   .functionalities-title > h2 {
-    width: 70%;
-    font-size: 54px;
+    width: 85%;
+    font-size: 41.77px;
   }
 }
 
@@ -915,16 +935,19 @@
   }
 }
 @media (min-width: 768px) {
+  .differentials-title {
+    font-size: 54px;
+  }
   .differentials-img > img {
     width: 700px;
   }
 
-  .differentials > span {
-    margin: 213px 0 0 0;
-  }
+  /* .differentials > span {
+    margin: 131px 0 0 0;
+  } */
 
   .differentials-img {
-    padding: 0 0 272.84px 0;
+    padding: 0 0 131px 0;
   }
 }
 @media (min-width: 1024px) {
@@ -932,7 +955,8 @@
     background: center / cover url("images/Ondas 1.svg");
   }
   .differentials-title {
-    font-size: 49px;
+    font-size: 60px;
+    max-width: 90%;
   }
   .differentials-img > img {
     width: 980px;
@@ -967,7 +991,7 @@
 
 @media (min-width: 768px) {
   .platform-text {
-    font-size: 44px;
+    font-size: 54px;
   }
 
   .row-notebook {
@@ -988,6 +1012,7 @@
     position: relative;
     z-index: 2;
     padding: 0;
+    max-width: 100%;
   }
 
   .row-text {
@@ -1001,8 +1026,6 @@
   .platform-text {
     display: flex;
     font-size: 64px;
-    width: 800px;
-    padding: 0 0 8rem 0;
   }
 
   .row-content {
@@ -1039,7 +1062,7 @@
   .row-span {
     display: flex;
     flex-direction: column;
-
+    align-items: unset;
     padding: 0;
   }
 
@@ -1072,11 +1095,12 @@
 
   .row-content {
     margin-left: 700px;
+    margin-top: 70px;
   }
 
-  .row-decoration {
+  /* .row-decoration {
     margin-left: -190px;
-  }
+  } */
 
   .row-text {
     width: 414.7px;
@@ -1145,7 +1169,7 @@
 
   .cover-text {
     display: flex;
-    max-width: 90%;
+    max-width: 80%;
 
     text-align: center;
   }
@@ -1158,10 +1182,11 @@
 @media (min-width: 1024px) {
   .cover-title {
     width: 895.38px;
-    font-size: 83.5692px;
+    font-size: 83.7px;
   }
   .cover-text {
-    max-width: 60%;
+    max-width: 70%;
+    font-size: 29.2px;
   }
 }
 
@@ -1203,7 +1228,7 @@
 @media (min-width: 1024px) {
   .navbar-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
   .navbar-colapse {
@@ -1211,11 +1236,12 @@
   }
 
   .navbar-img {
-    padding: 1rem 0.5rem 1rem 3rem;
+    padding: 1rem 0.5rem 1rem 3.5rem;
   }
 
   .navbar-right {
     display: flex;
+    padding: 0 1.5rem;
   }
 
   .navbar-enter {
@@ -1235,7 +1261,7 @@
     justify-content: center;
     width: 225px;
     height: 47px;
-    margin: 1rem 1.5rem;
+    margin: 1rem;
 
     font-style: normal;
     font-weight: 500;
